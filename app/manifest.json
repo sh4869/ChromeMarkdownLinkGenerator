@@ -1,0 +1,19 @@
+{
+  "name": "__MSG_appName__",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "__MSG_appDescription__",
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/chromereload.js",
+      "scripts/background.js"
+    ]
+  },
+  "permissions": [
+    "background",
+    "clipboardWrite",
+    "tabs",
+    "contextMenus"
+  ]
+}
